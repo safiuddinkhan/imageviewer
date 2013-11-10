@@ -195,5 +195,13 @@ break;
 }
   SDL_Delay(1);
 }
+
+avcodec_close(avctx);
+avformat_close_input(&pFormatCtx);
+av_free(frame);
+av_free(frame1);
+sws_freeContext (convert_ctx);
+av_freep(&vidbuffer);  
+
 return 0;
 }
