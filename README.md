@@ -5,4 +5,4 @@ Simple FFMPEG based Image Viewer created for learning purposes
 
 Compile it using 
 
-g++ pngviewer.cpp -o pngviewer  -lSDL -lavutil -lavformat -lavcodec -lswscale
+g++ imageviewer.cpp -o pngviewer  -lSDL -lavutil -lavformat -lavcodec -lswscale
